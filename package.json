@@ -1,0 +1,24 @@
+{
+  "name": "coffee-manager",
+  "version": "1.0.0",
+  "description": "a simple manager for different coffee",
+  "keywords": [
+    "express",
+    "coffee"
+  ],
+  "license": "ISC",
+  "author": "karthik",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "coffee-manager": "file:",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
